@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Dropdown = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -38,21 +39,25 @@ const Dropdown = () => {
                 <div className="z-10 absolute mt-2 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                     <li>
+                        <Link to='/' className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'>
+                            Home
+                        </Link>
+                    </li>
+                    <li>
                         <a href='https://ea-linktree.netlify.app/' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                             Link Tree
                         </a>
                     </li>
                     <li>
-                        <a href='#' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                            Contact ME?
-                        </a>
+                        <Link to='/skills' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white font-bold">
+                            Skills
+                        </Link>
                     </li>
-                    {/* <li>
-                        <a href='#' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                            Home
-                        </a>
-                    </li> */}
-                    
+                    <li>
+                        <Link to='/contact' className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                            Contact ME?
+                        </Link>
+                    </li>            
                 </ul>
                 </div>
             )}

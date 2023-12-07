@@ -2,14 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/Header'
-import data from './data'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Skill from './pages/Skill'
+import Contact from './pages/Contact'
 
 function App() {
-
   return (
     <>
-      <Header data={data} />
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/skills' element={<Skill />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </Router>
     </>
   )
 }
