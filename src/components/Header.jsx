@@ -29,11 +29,11 @@ const Header = ({ data }) => {
                             <p className="font-bold text-blue-700 text-sm md:text-xl">THE ESSENTIAL PROJECTS, ALL IN ONE PORTFOLFIO</p>
                             <div className='mt-2 flex'>
                                 <FaCodeCompare size={25} />
-                                <p className='font-extrabold mx-1'>FULL-STACK DEVELOPER</p>
-                                <span className='mx-2 flex items-center justify-center'>
-                                    <GoDotFill />
-                                </span>
-                                <p className='font-extrabold'>{itemCount} Projects</p>
+                                <p className='font-extrabold'>FULL-STACK DEVELOPER</p>
+                            </div>
+                            <div className='flex mt-2'>
+                                <GoDotFill size={25} />
+                                <p className='font-bold'>{itemCount} Projects</p>
                             </div>
                     </div>
                 </div>
