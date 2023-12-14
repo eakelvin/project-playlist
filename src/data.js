@@ -137,6 +137,14 @@ export default [
       "website": "https://spinthebottleklm.netlify.app/",
       "github": "https://github.com/blameleo/spin-the-bottle.git",
     },
-    
+    {
+      "id": 16,
+      "title": "MY MED",
+      "description": "View your medication schedule and set reminders",
+      "logo": "/images/",
+      "skills": ["TAILWIND CSS", "MERN STACK"],
+      "website": "",
+      "github": "https://github.com/eakelvin/my-med-web.git",
+    },
     
 ]
