@@ -97,7 +97,7 @@ export default [
       "title": "MEME GENERATOR",
       "description": "Generate random memes",
       "logo": "/images/meme.jpeg",
-      "skills": ["REACT", "CSS"],
+      "skills": ["REACT", "CSS", "API"],
       "website": "https://memegenerator-ea.netlify.app/",
       "github": "https://github.com/eakelvin/Meme-Generator.git",
     },

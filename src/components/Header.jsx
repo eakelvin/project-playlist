@@ -6,8 +6,8 @@ import { IoDownloadOutline } from "react-icons/io5";
 import SearchInput from './Search';
 import WorkSection from './Work';
 import data from '../data';
-import me from '../assets/me.jpg'
-import me1 from '../assets/me1.jpg'
+import me from '../assets/kelvin.jpg'
+import Type from './type';
 
 const Header = ({ data }) => {
     const itemCount = data.length;
@@ -21,19 +21,20 @@ const Header = ({ data }) => {
 
                 <div className="p-10 sm:flex sm:space-x-6">
                     <div className="flex-shrink-0 max-w-xs mb-6 h-62 sm:h-44 sm:w-44 sm:mb-0">
-                        <img src={me1} alt="" className="shadow-lg object-cover object-center w-full h-full dark:bg-gray-500" />
+                        <img src={me} alt="" className="shadow-lg object-cover object-center w-full h-full dark:bg-gray-500" />
                     </div>
                     <div className="flex flex-col py-4">
                             <p className='text-sm'>PUBLIC PORTFOLIO</p>
-                            <h2 className="mb-4 text-3xl sm:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">THIS IS KELVIN AKABA</h2>
-                            <p className="font-bold text-blue-700 text-sm md:text-xl">THE ESSENTIAL PROJECTS, ALL IN ONE PORTFOLFIO</p>
+                            < Type />
+                            {/* <h2 className="mb-4 text-3xl sm:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">THIS IS KELVIN AKABA</h2> */}
                             <div className='mt-2 flex'>
                                 <FaCodeCompare size={25} />
-                                <p className='font-extrabold'>FULL-STACK DEVELOPER</p>
+                                <p className="font-extrabold text-blue-700 text-sm md:text-xl">THE ESSENTIAL PROJECTS, ALL IN ONE PORTFOLFIO</p>
+                                {/* <p className='font-extrabold'>FULL-STACK DEVELOPER</p> */}
                             </div>
                             <div className='flex mt-2'>
                                 <GoDotFill size={25} />
-                                <p className='font-bold'>{itemCount} Projects</p>
+                                <p className='font-extrabold text-slate-700 text-lg'>{itemCount} Projects</p>
                             </div>
                     </div>
                 </div>
@@ -44,7 +45,7 @@ const Header = ({ data }) => {
                 <div className='flex justify-between p-8'>
                     <div className='mt-2'>
                         <div className="group relative w-max">
-                            <a href="">
+                            <a href="https://flowcv.com/resume/r8p9dbnsrn">
                                 <button>
                                     <IoDownloadOutline size={40} />
                                 </button>
