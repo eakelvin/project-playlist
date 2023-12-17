@@ -141,7 +141,7 @@ export default [
       "id": 16,
       "title": "MY MED",
       "description": "View your medication schedule and set reminders",
-      "logo": "/images/",
+      "logo": "/images/med.png",
       "skills": ["TAILWIND CSS", "MERN STACK"],
       "website": "",
       "github": "https://github.com/eakelvin/my-med-web.git",
