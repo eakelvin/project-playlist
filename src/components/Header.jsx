@@ -29,7 +29,7 @@ const Header = ({ data }) => {
                             {/* <h2 className="mb-4 text-3xl sm:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">THIS IS KELVIN AKABA</h2> */}
                             <div className='mt-2 flex'>
                                 <FaCodeCompare size={25} />
-                                <p className="font-extrabold text-blue-700 text-sm md:text-xl">THE ESSENTIAL PROJECTS, ALL IN ONE PORTFOLFIO</p>
+                                <p className="font-extrabold text-blue-700 text-sm md:text-xl">THE ESSENTIAL PROJECTS, ALL IN ONE PORTFOLIO</p>
                                 {/* <p className='font-extrabold'>FULL-STACK DEVELOPER</p> */}
                             </div>
                             <div className='flex mt-2'>
