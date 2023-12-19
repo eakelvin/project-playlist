@@ -8,6 +8,7 @@ import WorkSection from './Work';
 import data from '../data';
 import me from '../assets/kelvin.jpg'
 import Type from './type';
+import Particle from './Particle';
 
 const Header = ({ data }) => {
     const itemCount = data.length;
@@ -15,29 +16,31 @@ const Header = ({ data }) => {
     return (
         <>
             <div className='text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800'>
-                <div className='pt-5 px-10'>
-                    <Dropdown />
-                </div>
+                <Particle />
+                    <div className='pt-5 px-10'>
+                        <Dropdown />
+                    </div>
 
-                <div className="p-10 sm:flex sm:space-x-6">
-                    <div className="flex-shrink-0 max-w-xs mb-6 h-62 sm:h-44 sm:w-44 sm:mb-0">
-                        <img src={me} alt="" className="shadow-lg object-cover object-center w-full h-full dark:bg-gray-500" />
+                    <div className="p-10 sm:flex sm:space-x-6">
+                        <div className="flex-shrink-0 max-w-xs mb-6 h-62 sm:h-44 sm:w-44 sm:mb-0">
+                            <img src={me} alt="" className="shadow-lg object-cover object-center w-full h-full dark:bg-gray-500" />
+                        </div>
+                        <div className="flex flex-col py-4">
+                                <p className='text-sm'>PUBLIC PORTFOLIO</p>
+                                < Type />
+                                {/* <h2 className="mb-4 text-3xl sm:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">THIS IS KELVIN AKABA</h2> */}
+                                <div className='mt-2 flex'>
+                                    <FaCodeCompare size={25} />
+                                    <p className="font-extrabold text-blue-700 text-sm md:text-xl">THE ESSENTIAL PROJECTS, ALL IN ONE PORTFOLIO</p>
+                                    {/* <p className='font-extrabold'>FULL-STACK DEVELOPER</p> */}
+                                </div>
+                                <div className='flex mt-2'>
+                                    <GoDotFill size={25} />
+                                    <p className='font-extrabold text-slate-700 text-lg'>{itemCount} Projects</p>
+                                </div>
+                        </div>
                     </div>
-                    <div className="flex flex-col py-4">
-                            <p className='text-sm'>PUBLIC PORTFOLIO</p>
-                            < Type />
-                            {/* <h2 className="mb-4 text-3xl sm:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">THIS IS KELVIN AKABA</h2> */}
-                            <div className='mt-2 flex'>
-                                <FaCodeCompare size={25} />
-                                <p className="font-extrabold text-blue-700 text-sm md:text-xl">THE ESSENTIAL PROJECTS, ALL IN ONE PORTFOLIO</p>
-                                {/* <p className='font-extrabold'>FULL-STACK DEVELOPER</p> */}
-                            </div>
-                            <div className='flex mt-2'>
-                                <GoDotFill size={25} />
-                                <p className='font-extrabold text-slate-700 text-lg'>{itemCount} Projects</p>
-                            </div>
-                    </div>
-                </div>
+                {/* </Particle> */}
             </div>
 
             {/* <div className='text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800'> */}
