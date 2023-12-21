@@ -140,7 +140,7 @@ export default [
     {
       "id": 16,
       "title": "MY MED",
-      "description": "View your medication schedule and set reminders",
+      "description": "Control your medication schedule, update medical details and set reminders",
       "logo": "/images/med.png",
       "skills": ["TAILWIND CSS", "MERN STACK"],
       "website": "",
