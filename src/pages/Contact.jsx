@@ -9,24 +9,28 @@ const Contact = () => {
   return (
     <div className='p-5 mx-auto mt-16 bg-black text-white'>
         <div className='flex justify-center'><Dropdown /></div>
-        <div className='p-12'>
-            <h1>Want to get in touch with me?</h1>
-            <p className='py-5'>Send me an email at 
-                <br />
-                <span className='font-extrabold text-xl'>
-                    akabakelvin@gmail.com
-                </span>
-                <br />
-                I never stop checking my email and whatsapp, even though I could be sleeping or showering.
-            </p>
+        <div className='py-12 px-6 md:grid grid-cols-2'>
+            <div className=''>
+                <h1>Want to get in touch with me?</h1>
+                <p className='py-5'>Send me an email at 
+                    <br />
+                    <span className='font-extrabold text-xl'>
+                        akabakelvin@gmail.com
+                    </span>
+                    <br />
+                    I never stop checking my email and whatsapp, even though I could be sleeping or showering.
+                </p>
 
-            <Link to={whatsappUrl}>
-                <button type="button" className="text-white bg-green-500 hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-green font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-green-400 me-2 mb-2">
-                    <FaWhatsapp />
-                    WHATSAPP
-                </button>
-            </Link>
-
+                <Link to={whatsappUrl}>
+                    <button type="button" className="text-white bg-green-500 hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-green font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-green-400 me-2 mb-2">
+                        <FaWhatsapp />
+                        WHATSAPP
+                    </button>
+                </Link>
+            </div>
+            <div className=''>
+                <img src="./images/ealogo.png" height="200" width='200' alt="" />
+            </div>
         </div>
     </div>
   )

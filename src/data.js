@@ -2,11 +2,11 @@ export default [
   {
       "id": 1,
       "title": "FINANCIAL CHATBOT",
-      "description": "A financial chatbot to answer financial questions",
+      "description": "Financial GPT || A financial chatbot to answer financial questions",
       "logo": "/images/fundtalk.jpg",
       "logo1": "/images/fundtalk1.jpg",
       "logo2": "/images/fundtalk2.jpg",
-      "skills": ["MERN STACK", "API", "BOOTSTRAP"],
+      "skills": ["MERN STACK", "OPEN AI API", "BOOTSTRAP"],
       "website": "https://finalfundtalk.onrender.com",
       "github": "https://github.com/BabatundeJimoh/FundTalk.git",
     },

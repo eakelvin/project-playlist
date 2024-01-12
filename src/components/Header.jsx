@@ -70,6 +70,7 @@ const Header = ({ data }) => {
                 <WorkSection data={data} />
             </div>
 
+
         </>
     )
 }
