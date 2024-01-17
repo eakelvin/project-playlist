@@ -1,17 +1,26 @@
 export default [
   {
-      "id": 1,
-      "title": "FINANCIAL CHATBOT",
-      "description": "Financial GPT || A financial chatbot to answer financial questions",
-      "logo": "/images/fundtalk.jpg",
-      "logo1": "/images/fundtalk1.jpg",
-      "logo2": "/images/fundtalk2.jpg",
-      "skills": ["MERN STACK", "OPEN AI API", "BOOTSTRAP"],
-      "website": "https://finalfundtalk.onrender.com",
-      "github": "https://github.com/BabatundeJimoh/FundTalk.git",
-    },
+    "id": 1,
+    "title": "CEDIRATES",
+    "description": "Compare Exchange Rates and Fuel Prices",
+    "logo": "/images/cedi.png",
+    "skills": ["REACT", 'CSS', 'MUI', 'NODEJS', 'MONGODB'],
+    "website": "https://cedirates.com/",
+    "github": "https://github.com/eakelvin",
+  },
+  {
+    "id": 2,
+    "title": "FUNDTALK",
+    "description": "Financial GPT || A financial chatbot to answer financial questions",
+    "logo": "/images/fundtalk.jpg",
+    "logo1": "/images/fundtalk1.jpg",
+    "logo2": "/images/fundtalk2.jpg",
+    "skills": ["MERN STACK", "OPEN AI API", "BOOTSTRAP"],
+    "website": "https://finalfundtalk.onrender.com",
+    "github": "https://github.com/BabatundeJimoh/FundTalk.git",
+  },
     {
-      "id": 2,
+      "id": 3,
       "title": "DEV JOBS",
       "description": "A webapp to help users search for jobs",
       "logo": "/images/dev.jpg",
@@ -20,7 +29,7 @@ export default [
       "github": "https://github.com/eakelvin/DevJobs-Project.git",
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "E-COMMERCE",
       "description": "A webapp to help users shop for products",
       "logo": "/images/ecommerce.jpg",
@@ -29,7 +38,7 @@ export default [
       "github": "https://github.com/eakelvin/ecommerce-app.git",
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "MAVE SPORTS",
       "description": "A website for sports fans specifically football and basketball",
       "logo": "/images/mave1.jpg",
@@ -38,7 +47,7 @@ export default [
       "github": "https://mavesports.com/",
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "EA TOUR",
       "description": "Explore and discover the best tourism content in Ghana",
       "logo": "/images/tour.jpg",
@@ -47,7 +56,7 @@ export default [
       "github": "https://github.com/eakelvin/EA-Tour.git",
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "API PROJECTS",
       "description": "A collection of different web apps that utilize APIs",
       "logo": "/images/API.jpg",
@@ -56,7 +65,7 @@ export default [
       "github": "https://github.com/eakelvin/Api-projects.git",
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "TERMINAL CHATBOT",
       "description": "A chatbot to communicate with an AI in the terminal",
       "logo": "/images/terminal.jpg",
@@ -65,7 +74,7 @@ export default [
       "github": "https://github.com/eakelvin/terminal-chatbot.git",
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "PERSONAL BLOG",
       "description": "A website where I share my thoughts, ideas and experiences",
       "logo": "/images/blog.jpg",
@@ -74,7 +83,7 @@ export default [
       "github": "https://github.com/eakelvin/blog.git",
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "LIVE CHAT",
       "description": "A webapp to helps users communicate with eachother",
       "logo": "/images/livechat1.jpg",
@@ -84,7 +93,7 @@ export default [
       "github": "https://github.com/eakelvin/livechat.git",
     },
       {
-      "id": 10,
+      "id": 11,
       "title": "COUNTRY APP",
       "description": "A website that contains details of all countries in the world",
       "logo": "/images/country-app.jpg",
@@ -93,7 +102,7 @@ export default [
       "github": "https://github.com/eakelvin/countries-app.git",
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "MEME GENERATOR",
       "description": "Generate random memes",
       "logo": "/images/meme.jpeg",
@@ -102,7 +111,7 @@ export default [
       "github": "https://github.com/eakelvin/Meme-Generator.git",
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "TENZIES GAME",
       "description": "Play a game of rolling dice until all the dice are the same",
       "logo": "/images/tenzies.jpeg",
@@ -111,7 +120,7 @@ export default [
       "github": "https://github.com/eakelvin/tenzies-game.git",
     },
     {
-      "id": 13,
+      "id": 14,
       "title": "NOTES APP",
       "description": "Write your notes on this web app",
       "logo": "/images/note.jpeg",
@@ -120,7 +129,7 @@ export default [
       "github": "https://github.com/eakelvin/note-app.git",
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "EXPENSE TRACKER",
       "description": "Keep track of your expenses",
       "logo": "/images/exp.jpeg",
@@ -129,7 +138,7 @@ export default [
       "github": "https://github.com/eakelvin/expense-tracker.git",
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "SPIN THE BOTTLE GAME",
       "description": "Spin the bottle to generate a random dare",
       "logo": "/images/spin.jpeg",
@@ -138,7 +147,7 @@ export default [
       "github": "https://github.com/blameleo/spin-the-bottle.git",
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "MY MED",
       "description": "Control your medication schedule, update medical details and set reminders",
       "logo": "/images/med.png",
