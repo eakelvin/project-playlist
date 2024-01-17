@@ -154,6 +154,5 @@ export default [
       "skills": ["TAILWIND CSS", "MERN STACK"],
       "website": "",
       "github": "https://github.com/eakelvin/my-med-web.git",
-    },
-    
+    },  
 ]

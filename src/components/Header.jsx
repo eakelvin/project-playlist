@@ -26,7 +26,7 @@ const Header = ({ data }) => {
                             <img src={me} alt="" className="shadow-lg object-cover object-center w-full h-full dark:bg-gray-500" />
                         </div>
                         <div className="flex flex-col py-4">
-                                <p className='text-sm'>PUBLIC PORTFOLIO</p>
+                                <p className='text-sm'>KELVIN AKABA</p>
                                 < Type />
                                 {/* <h2 className="mb-4 text-3xl sm:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">THIS IS KELVIN AKABA</h2> */}
                                 <div className='mt-2 flex'>
