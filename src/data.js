@@ -14,7 +14,7 @@ export default [
     "description": "Celebrate creativity, nurture growth, build community connections",
     "logo": "/images/vc.png",
     "skills": ["NEXT", 'BOOTSTRAP', 'SANITY'],
-    "website": "https://villagecreators.netlify.app/",
+    "website": "https://www.villagecreators.net/",
     "github": "https://github.com/eakelvin/village-creators-main.git",
   },
   {
@@ -161,7 +161,7 @@ export default [
       "description": "Control your medication schedule, update medical details and set reminders",
       "logo": "/images/med.png",
       "skills": ["TAILWIND CSS", "MERN STACK"],
-      "website": "",
+      "website": "https://my-med-web-fabe.vercel.app/",
       "github": "https://github.com/eakelvin/my-med-web.git",
     },  
 ]
