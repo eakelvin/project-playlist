@@ -130,6 +130,15 @@ export default [
     },
     {
       "id": 15,
+      "title": "MULTI STEP FORM",
+      "description": "Gathers data and proposes a sample JSON object",
+      "logo": "/images/multistep.png",
+      "skills": ["NEXTJS", "TYPESCRIPT", "TAILWIND"],
+      "website": "https://ea-form.netlify.app/",
+      "github": "https://github.com/eakelvin/form-test.git",
+    },
+    {
+      "id": 16,
       "title": "NOTES APP",
       "description": "Write your notes on this web app",
       "logo": "/images/note.jpeg",
@@ -138,7 +147,7 @@ export default [
       "github": "https://github.com/eakelvin/note-app.git",
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "EXPENSE TRACKER",
       "description": "Keep track of your expenses",
       "logo": "/images/exp.jpeg",
@@ -147,7 +156,7 @@ export default [
       "github": "https://github.com/eakelvin/expense-tracker.git",
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "SPIN THE BOTTLE GAME",
       "description": "Spin the bottle to generate a random dare",
       "logo": "/images/spin.jpeg",
@@ -156,12 +165,21 @@ export default [
       "github": "https://github.com/blameleo/spin-the-bottle.git",
     },
     {
-      "id": 18,
+      "id": 19,
       "title": "MY MED",
       "description": "Control your medication schedule, update medical details and set reminders",
       "logo": "/images/med.png",
       "skills": ["TAILWIND CSS", "MERN STACK"],
       "website": "https://my-med-web-fabe.vercel.app/",
       "github": "https://github.com/eakelvin/my-med-web.git",
-    },  
+    },
+    // {
+    //   "id": 20,
+    //   "title": "",
+    //   "description": "",
+    //   "logo": "/images/tenzies.jpeg",
+    //   "skills": ["REACT", "CSS"],
+    //   "website": "",
+    //   "github": "",
+    // },  
 ]
