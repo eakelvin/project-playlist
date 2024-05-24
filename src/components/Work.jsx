@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub } from "react-icons/fa";
 
 const Card = ({ title, description, logo, skills, website, github }) => (
-  <div className="p-2 items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+  <div className="p-2 items-center bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href={website}>
       <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={logo} alt={`${title} Logo`} />
       <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">{description}</p>
@@ -29,7 +29,7 @@ const Card = ({ title, description, logo, skills, website, github }) => (
 );
 
 const WorkSection = ({ data }) => (
-    <div className="grid md:grid-cols-2 space-y-8 space-x-8 py-8 px-4 mx-auto">  
+    <div className="grid md:grid-cols-2 space-y-8 md:space-x-8 py-8 px-4 mx-auto">  
       {data.map((work) => (
         <Card key={work.id} {...work} />
       ))}
