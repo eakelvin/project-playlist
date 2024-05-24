@@ -29,16 +29,11 @@ const Card = ({ title, description, logo, skills, website, github }) => (
 );
 
 const WorkSection = ({ data }) => (
-  <section className="bg-white dark:bg-gray-900">
-    <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-      
-      <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-        {data.map((work) => (
-          <Card key={work.id} {...work} />
-        ))}
-      </div>
+    <div className="grid md:grid-cols-2 space-y-8 space-x-8 py-8 px-4 mx-auto">  
+      {data.map((work) => (
+        <Card key={work.id} {...work} />
+      ))}
     </div>
-  </section>
 );
 
 export default WorkSection;

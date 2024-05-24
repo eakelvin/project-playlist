@@ -17,9 +17,19 @@ const Header = ({ data }) => {
         <>
             <div className='bg-gradient-to-r from-slate-500 via-slate-600 to-slate-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-slate-300 dark:focus:ring-slate-800'>
             {/* <div className='text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800'> */}
-                <Particle />
+                {/* <Particle /> */}
                     <div className='pt-5 px-10'>
-                        <Dropdown />
+                        {/* <Dropdown /> */}
+                        <div className="mt-5 group relative w-max">
+                                    <a href="https://flowcv.com/resume/r8p9dbnsrn">
+                                        <button>
+                                            <IoDownloadOutline size={40} />
+                                        </button>
+                                    </a>
+                                    <span className="text-white pointer-events-none absolute -top-7 left-0 w-max opacity-0 transition-opacity group-hover:opacity-100 font-extrabold text-xl">
+                                        Click to view my RESUME
+                                    </span>
+                        </div>
                         <Type />
                     </div>
                     
@@ -40,25 +50,18 @@ const Header = ({ data }) => {
                                     <GoDotFill size={25} />
                                     <p className='font-extrabold text-lg'>{itemCount} Projects</p>
                                 </div>
+                                
                         </div>
                     </div>
                 {/* </Particle> */}
             </div>
 
             {/* <div className='text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800'> */}
-            <div className='text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400'>
+
+            {/* <div className='text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400'>
                 <div className='flex justify-between p-8'>
                     <div className='mt-2'>
-                        <div className="group relative w-max">
-                            <a href="https://flowcv.com/resume/r8p9dbnsrn">
-                                <button>
-                                    <IoDownloadOutline size={40} />
-                                </button>
-                            </a>
-                            <span className="pointer-events-none absolute -top-7 left-0 w-max opacity-0 transition-opacity group-hover:opacity-100 font-extrabold text-xl">
-                            Click to view my RESUME
-                            </span>
-                        </div>
+                        
                     </div>
                     
                     <div>
@@ -66,12 +69,11 @@ const Header = ({ data }) => {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
-            <div className=''>
+            <div className='py-12'>
                 <WorkSection data={data} />
-            </div>
-
+            </div>                          
 
         </>
     )

@@ -4,10 +4,9 @@ const Type = () => {
   return (
     <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
         'THIS IS KELVIN AKABA',
         1000,
-        'FULL-STACK DEVELOPER',
+        'FULL-STACK DEVELOPER - MERN STACK',
         1000,
       ]}
       wrapper="span"
