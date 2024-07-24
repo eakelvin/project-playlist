@@ -7,15 +7,7 @@ export default [
     "skills": ["REACT", 'CSS', 'MUI', 'NODEJS', 'MONGODB'],
     "website": "https://cedirates.com/",
     "github": "https://github.com/eakelvin",
-  },
-  {
-    "id": 3,
-    "title": "EA CODES",
-    "description": "Contact us for functional websites",
-    "logo": "/images/eacodes.png",
-    "skills": ["NEXT", "TAILWIND", , "NODE", "MONGODB"],
-    "website": "https://website-company-iota.vercel.app/",
-    "github": "https://github.com/eakelvin",
+    "status": "true"
   },
   {
     "id": 2,
@@ -25,6 +17,17 @@ export default [
     "skills": ["NEXT", 'BOOTSTRAP', 'SANITY'],
     "website": "https://www.villagecreators.net/",
     "github": "https://github.com/eakelvin/village-creators-main.git",
+    "status": "true"
+  },
+  {
+    "id": 3,
+    "title": "EA CODES",
+    "description": "Contact us for functional websites",
+    "logo": "/images/eacodes.png",
+    "skills": ["NEXT", "TAILWIND", , "NODE", "MONGODB"],
+    "website": "https://website-company-iota.vercel.app/",
+    "github": "https://github.com/eakelvin",
+    "status": "false"
   },
   {
     "id": 4,
@@ -36,6 +39,7 @@ export default [
     "skills": ["MERN STACK", "OPEN AI API", "BOOTSTRAP"],
     "website": "https://finalfundtalk.onrender.com",
     "github": "https://github.com/BabatundeJimoh/FundTalk.git",
+    "status": "false"
   },
   {
     "id": 5,
@@ -45,6 +49,7 @@ export default [
     "skills": ["REACT", "BOOTSTRAP"],
     "website": "https://devjobs-ea.netlify.app/",
     "github": "https://github.com/eakelvin/DevJobs-Project.git",
+    "status": "false"
   },
   {
     "id": 6,
@@ -54,6 +59,7 @@ export default [
     "skills": ["REACT", "REDUX", "BOOTSTRAP", "FIREBASE"],
     "website": "https://ecommerce-ea.netlify.app/",
     "github": "https://github.com/eakelvin/ecommerce-app.git",
+    "status": "false"
   },
   {
     "id": 7,
@@ -63,6 +69,7 @@ export default [
     "skills": ["WORDPRESS"],
     "website": "https://mavesports.com/",
     "github": "https://mavesports.com/",
+    "status": "true"
   },
   {
     "id": 8,
@@ -72,6 +79,7 @@ export default [
     "skills": ["HTML", "CSS", "JavaScript", "BOOTSTRAP"],
     "website": "https://tour-ea.netlify.app/",
     "github": "https://github.com/eakelvin/EA-Tour.git",
+    "status": "false"
   },
   {
     "id": 9,
@@ -81,6 +89,7 @@ export default [
     "skills": ["HTML", "VANILLA CSS", "JAVASCRIPT", "REST API"],
     "website": "https://api-app-ea.netlify.app/",
     "github": "https://github.com/eakelvin/Api-projects.git",
+    "status": "false"
   },
   {
     "id": 10,
@@ -90,6 +99,7 @@ export default [
     "skills": ["NODE JS", "JAVASCRIPT", "API"],
     "website": "",
     "github": "https://github.com/eakelvin/terminal-chatbot.git",
+    "status": "false"
   },
   {
     "id": 11,
@@ -99,6 +109,7 @@ export default [
     "skills": ["HTML", "CSS", "NODE JS", "MONDODB", "EXPRESS JS"],
     "website": "https://ea-blog.onrender.com/",
     "github": "https://github.com/eakelvin/blog.git",
+    "status": "false"
   },
   {
     "id": 12,
@@ -109,6 +120,7 @@ export default [
     "skills": ["MERN STACK", "SOCKET-IO", "TAILWIND"],
     "website": "",
     "github": "https://github.com/eakelvin/livechat.git",
+    "status": "false"
   },
   {
     "id": 13,
@@ -118,6 +130,7 @@ export default [
     "skills": ["API", "TAILWIND CSS", "REACT"],
     "website": "https://countries-app-ea.netlify.app/",
     "github": "https://github.com/eakelvin/countries-app.git",
+    "status": "false"
   },
   {
     "id": 14,
@@ -127,6 +140,7 @@ export default [
     "skills": ["REACT", "CSS", "API"],
     "website": "https://memegenerator-ea.netlify.app/",
     "github": "https://github.com/eakelvin/Meme-Generator.git",
+    "status": "false"
   },
   {
     "id": 15,
@@ -136,6 +150,7 @@ export default [
     "skills": ["REACT", "CSS"],
     "website": "https://tenzies-game-ea.netlify.app/",
     "github": "https://github.com/eakelvin/tenzies-game.git",
+    "status": "false"
   },
   {
     "id": 16,
@@ -145,6 +160,7 @@ export default [
     "skills": ["NEXTJS", "TYPESCRIPT", "TAILWIND"],
     "website": "https://ea-form.netlify.app/",
     "github": "https://github.com/eakelvin/form-test.git",
+    "status": "false"
   },
   {
     "id": 17,
@@ -154,6 +170,7 @@ export default [
     "skills": ["TAILWIND", "REACT", "REDUX"],
     "website": "https://notetaker-ea.netlify.app/",
     "github": "https://github.com/eakelvin/note-app.git",
+    "status": "false"
   },
   {
     "id": 18,
@@ -163,6 +180,7 @@ export default [
     "skills": ["TAILWIND", "REACT", "REDUX"],
     "website": "https://expensetracker-ea.netlify.app/",
     "github": "https://github.com/eakelvin/expense-tracker.git",
+    "status": "false"
   },
   {
     "id": 19,
@@ -172,6 +190,7 @@ export default [
     "skills": ["TAILWIND CSS", "JAVASCRIPT", "REST API"],
     "website": "https://spinthebottleklm.netlify.app/",
     "github": "https://github.com/blameleo/spin-the-bottle.git",
+    "status": "false"
   },
   {
     "id": 20,
@@ -181,6 +200,7 @@ export default [
     "skills": ["TAILWIND CSS", "MERN STACK"],
     "website": "https://my-med-web-fabe.vercel.app/",
     "github": "https://github.com/eakelvin/my-med-web.git",
+    "status": "false"
   },
     // {
     //   "id": 20,

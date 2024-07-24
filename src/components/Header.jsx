@@ -9,6 +9,7 @@ import data from '../data';
 import me from '../assets/kelvin.jpg'
 import Type from './type';
 import Particle from './Particle';
+import MobileType from './mobileType';
 
 const Header = ({ data }) => {
     const itemCount = data.length;
@@ -30,7 +31,12 @@ const Header = ({ data }) => {
                                         Click to view my RESUME
                                     </span>
                         </div>
-                        <Type />
+                        <div className='hidden md:flex'>
+                            <Type />
+                        </div>
+                        <div className='md:hidden flex'>
+                            <MobileType />
+                        </div>
                     </div>
                     
                     <div className="p-10 sm:flex sm:space-x-6">
