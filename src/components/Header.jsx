@@ -21,16 +21,7 @@ const Header = ({ data }) => {
                 {/* <Particle /> */}
                     <div className='pt-5 px-10'>
                         {/* <Dropdown /> */}
-                        <div className="mt-5 group relative w-max">
-                                    <a href="https://flowcv.com/resume/r8p9dbnsrn">
-                                        <button>
-                                            <IoDownloadOutline size={40} />
-                                        </button>
-                                    </a>
-                                    <span className="text-white pointer-events-none absolute -top-7 left-0 w-max opacity-0 transition-opacity group-hover:opacity-100 font-extrabold text-xl">
-                                        Click to view my RESUME
-                                    </span>
-                        </div>
+                       
                         <div className='hidden md:flex'>
                             <Type />
                         </div>
@@ -39,22 +30,28 @@ const Header = ({ data }) => {
                         </div>
                     </div>
                     
-                    <div className="p-10 sm:flex sm:space-x-6">
-                        <div className="flex-shrink-0 max-w-xs mb-6 h-62 sm:h-44 sm:w-44 sm:mb-0">
+                    <div className="px-10 sm:flex sm:space-x-6">
+                        {/* <div className="flex-shrink-0 max-w-xs mb-6 h-62 sm:h-44 sm:w-44 sm:mb-0">
                             <img src={me} alt="" className="shadow-lg object-cover object-center w-full h-full dark:bg-gray-500" />
-                        </div>
+                        </div> */}
                         <div className="flex flex-col py-4">
-                                <p className='text-sm text-white'>KELVIN AKABA</p>
+                                {/* <p className='text-sm text-white'>KELVIN AKABA</p> */}
                                 
                                 {/* <h2 className="mb-4 text-3xl sm:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">THIS IS KELVIN AKABA</h2> */}
-                                <div className='mt-2 flex text-white'>
-                                    <FaCodeCompare size={25} />
-                                    <p className="font-extrabold text-sm md:text-xl">THE ESSENTIAL PROJECTS, ALL IN ONE PORTFOLIO</p>
+                                <div className='mt-2 text-white'>
+                                    {/* <FaCodeCompare size={25} /> */}
+                                    <p className="font-extrabold text-2xl">
+                                        I design, build, and sell products and services online.
+                                    </p>
                                     {/* <p className='font-extrabold'>FULL-STACK DEVELOPER</p> */}
                                 </div>
-                                <div className='flex mt-2 text-white'>
-                                    <GoDotFill size={25} />
-                                    <p className='font-extrabold text-lg'>{itemCount} Projects</p>
+                                <div className="mt-2">
+                                    <a href="https://flowcv.com/resume/r8p9dbnsrn">
+                                        <button className='bg-black hover:bg-gray-400 text-white font-bold py-2 px-4 rounded inline-flex items-center'>
+                                            <IoDownloadOutline size={30} />
+                                            <span>View my Resume</span>
+                                        </button>
+                                    </a>
                                 </div>
                                 
                         </div>

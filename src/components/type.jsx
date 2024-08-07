@@ -6,7 +6,7 @@ const Type = () => {
       sequence={[
         'THIS IS KELVIN AKABA',
         1000,
-        'FULL-STACK DEVELOPER - MERN STACK',
+        'FULL-STACK DEVELOPER',
         1000,
       ]}
       wrapper="span"

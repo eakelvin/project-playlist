@@ -1,21 +1,35 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
+import { FcCheckmark } from "react-icons/fc";
 
-const Card = ({ title, description, logo, skills, website, github }) => (
+const Card = ({ title, description, logo, skills, website, github, status }) => (
   <div className="p-2 items-center bg-gray-50 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href={website}>
-      <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={logo} alt={`${title} Logo`} />
-      <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">{description}</p>
-    </a>
+      <a href={website}>
+        <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={logo} alt={`${title} Logo`} />
+        <p className="mt-3 mb-4 font-semibold">
+          {description}
+        </p>
+      </a>
     
-      <div className="p-5">
+      <div className="p-2">
         <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
           <a href={website}>{title}</a>
         </h3>
+        <div className='flex items-center gap-1'>
+          <h3 className='text-lg'>Status:</h3>
+          {status === "true" ? (
+            <div className='flex items-center gap-1'>
+              <FcCheckmark />
+              <span className='text-lg'>Active</span>
+            </div>
+          ):(
+            <span className='text-lg'>Inactive</span>
+          )}
+        </div>
         <ul className="text-sm my-2 text-gray-500 dark:text-gray-400">
-            {skills.map((skill, index) => (
-              <p key={index}>{skill}</p>
-            ))}
+          {skills.map((skill, index) => (
+            <p key={index}>{skill}</p>
+          ))}
         </ul>
         {/* <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">{description}</p> */}
         <ul className="flex space-x-4">
@@ -24,7 +38,6 @@ const Card = ({ title, description, logo, skills, website, github }) => (
           </a>
         </ul>
       </div>
-    
   </div>
 );
 
