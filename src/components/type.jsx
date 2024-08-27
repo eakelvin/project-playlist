@@ -14,8 +14,8 @@ const Type = () => {
       style={{ 
             fontSize: '2em', 
             display: 'inline-block', 
-            color: 'black', 
-            fontWeight: '800' 
+            color: 'white', 
+            fontWeight: '900' 
         }}
       repeat={Infinity}
     />
