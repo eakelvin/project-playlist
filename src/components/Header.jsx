@@ -53,7 +53,9 @@ const Header = ({ data }) => {
 
             <div className='py-12'>
                 <WorkSection data={data} />
-            </div>                          
+            </div>
+
+            <p className="text-gray-300">© 2024 Ain't no going back, EA on the Code.</p>                          
         </>
     )
 }

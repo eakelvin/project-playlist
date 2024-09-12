@@ -5,7 +5,11 @@ import { FcCheckmark } from "react-icons/fc";
 const Card = ({ title, description, logo, skills, website, github, status }) => (
   <div className="p-2 items-center bg-gray-50 rounded-lg shadow">
       <a href={website}>
-        <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={logo} alt={`${title} Logo`} />
+        <img 
+          className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" 
+          src={logo} 
+          alt={`${title} Logo`} 
+        />
         <p className="mt-3 mb-4 font-semibold">
           {description}
         </p>
