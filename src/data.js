@@ -4,7 +4,7 @@ export default [
     "title": "CEDIRATES",
     "description": "Compare Exchange Rates and Fuel Prices",
     "logo": "/images/cedi.png",
-    "skills": ["REACT", 'CSS', 'MUI', 'NODEJS', 'MONGODB'],
+    "skills": ["NEXT", 'TAILWIND', 'EXPRESS', 'NODEJS', 'MONGODB'],
     "website": "https://cedirates.com/",
     "github": "https://github.com/eakelvin",
     "status": "true"
@@ -51,16 +51,16 @@ export default [
     "github": "https://github.com/eakelvin/DevJobs-Project.git",
     "status": "false"
   },
-  {
-    "id": 6,
-    "title": "E-COMMERCE",
-    "description": "A webapp to help users shop for products",
-    "logo": "/images/ecommerce.jpg",
-    "skills": ["REACT", "REDUX", "BOOTSTRAP", "FIREBASE"],
-    "website": "https://ecommerce-ea.netlify.app/",
-    "github": "https://github.com/eakelvin/ecommerce-app.git",
-    "status": "false"
-  },
+  // {
+  //   "id": 6,
+  //   "title": "E-COMMERCE",
+  //   "description": "A webapp to help users shop for products",
+  //   "logo": "/images/ecommerce.jpg",
+  //   "skills": ["REACT", "REDUX", "BOOTSTRAP", "FIREBASE"],
+  //   "website": "https://ecommerce-ea.netlify.app/",
+  //   "github": "https://github.com/eakelvin/ecommerce-app.git",
+  //   "status": "false"
+  // },
   {
     "id": 7,
     "title": "MAVE SPORTS",
@@ -69,14 +69,14 @@ export default [
     "skills": ["WORDPRESS"],
     "website": "https://mavesports.com/",
     "github": "https://mavesports.com/",
-    "status": "true"
+    "status": "false"
   },
   {
     "id": 8,
     "title": "EA TOUR",
     "description": "Explore and discover the best tourism content in Ghana",
     "logo": "/images/tour.jpg",
-    "skills": ["HTML", "CSS", "JavaScript", "BOOTSTRAP"],
+    "skills": ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
     "website": "https://tour-ea.netlify.app/",
     "github": "https://github.com/eakelvin/EA-Tour.git",
     "status": "false"
@@ -96,7 +96,7 @@ export default [
     "title": "TERMINAL CHATBOT",
     "description": "A chatbot to communicate with an AI in the terminal",
     "logo": "/images/terminal.jpg",
-    "skills": ["NODE JS", "JAVASCRIPT", "API"],
+    "skills": ["NODE JS", "JAVASCRIPT", "CHATGPT API"],
     "website": "",
     "github": "https://github.com/eakelvin/terminal-chatbot.git",
     "status": "false"
@@ -111,17 +111,17 @@ export default [
     "github": "https://github.com/eakelvin/blog.git",
     "status": "false"
   },
-  {
-    "id": 12,
-    "title": "LIVE CHAT",
-    "description": "A webapp to helps users communicate with eachother",
-    "logo": "/images/livechat1.jpg",
-    "logo2": "/images/livechat2.jpg",
-    "skills": ["MERN STACK", "SOCKET-IO", "TAILWIND"],
-    "website": "",
-    "github": "https://github.com/eakelvin/livechat.git",
-    "status": "false"
-  },
+  // {
+  //   "id": 12,
+  //   "title": "LIVE CHAT",
+  //   "description": "A webapp to helps users communicate with eachother",
+  //   "logo": "/images/livechat1.jpg",
+  //   "logo2": "/images/livechat2.jpg",
+  //   "skills": ["MERN STACK", "SOCKET-IO", "TAILWIND"],
+  //   "website": "",
+  //   "github": "https://github.com/eakelvin/livechat.git",
+  //   "status": "false"
+  // },
   {
     "id": 13,
     "title": "COUNTRY APP",
@@ -192,21 +192,22 @@ export default [
     "github": "https://github.com/blameleo/spin-the-bottle.git",
     "status": "false"
   },
-  {
-    "id": 20,
-    "title": "MY MED",
-    "description": "Control your medication schedule, update medical details and set reminders",
-    "logo": "/images/med.png",
-    "skills": ["TAILWIND CSS", "MERN STACK"],
-    "website": "https://my-med-web-fabe.vercel.app/",
-    "github": "https://github.com/eakelvin/my-med-web.git",
-    "status": "false"
-  },
+  // {
+  //   "id": 20,
+  //   "title": "MY MED",
+  //   "description": "Control your medication schedule, update medical details and set reminders",
+  //   "logo": "/images/med.png",
+  //   "skills": ["TAILWIND CSS", "MERN STACK"],
+  //   "website": "https://my-med-web-fabe.vercel.app/",
+  //   "github": "https://github.com/eakelvin/my-med-web.git",
+  //   "status": "false"
+  // },
+
     // {
     //   "id": 20,
     //   "title": "",
     //   "description": "",
-    //   "logo": "/images/tenzies.jpeg",
+    //   "logo": "/images/",
     //   "skills": ["REACT", "CSS"],
     //   "website": "",
     //   "github": "",
