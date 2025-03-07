@@ -20,6 +20,7 @@ export default [
     github: "https://github.com/eakelvin/village-creators-main.git",
     status: "true",
   },
+
   // {
   //   "id": 3,
   //   "title": "EA CODES",
@@ -30,6 +31,7 @@ export default [
   //   "github": "https://github.com/eakelvin",
   //   "status": "false"
   // },
+
   {
     id: 4,
     title: "FUNDTALK",
@@ -53,6 +55,7 @@ export default [
     github: "https://github.com/eakelvin/DevJobs-Project.git",
     status: "false",
   },
+
   // {
   //   "id": 6,
   //   "title": "E-COMMERCE",
@@ -63,6 +66,7 @@ export default [
   //   "github": "https://github.com/eakelvin/ecommerce-app.git",
   //   "status": "false"
   // },
+
   {
     id: 7,
     title: "MAVE SPORTS",
@@ -129,6 +133,7 @@ export default [
   //   "github": "https://github.com/eakelvin/livechat.git",
   //   "status": "false"
   // },
+
   {
     id: 13,
     title: "COUNTRY APP",
@@ -160,6 +165,7 @@ export default [
     github: "https://github.com/eakelvin/tenzies-game.git",
     status: "false",
   },
+
   // {
   //   id: 16,
   //   title: "MULTI STEP FORM",
@@ -203,6 +209,7 @@ export default [
     github: "https://github.com/blameleo/spin-the-bottle.git",
     status: "false",
   },
+
   // {
   //   "id": 20,
   //   "title": "MY MED",
