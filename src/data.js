@@ -30,9 +30,19 @@ export default [
     github: "https://github.com/eakelvin/village-creators-main.git",
     status: "true",
   },
+  {
+    id: 4,
+    title: "MAVE SPORTS",
+    description: "News/Blog - Football and Basketball content",
+    logo: "/images/mave1.jpg",
+    skills: ["WORDPRESS"],
+    website: "https://mavesports.com/",
+    github: "https://mavesports.com/",
+    status: "false",
+  },
 
   // {
-  //   "id": 3,
+  //   "id": ,
   //   "title": "EA CODES",
   //   "description": "Contact us for functional websites",
   //   "logo": "/images/eacodes.png",
@@ -42,29 +52,30 @@ export default [
   //   "status": "false"
   // },
 
-  {
-    id: 4,
-    title: "FUNDTALK",
-    description:
-      "Financial GPT || A financial chatbot to answer financial questions",
-    logo: "/images/fundtalk.jpg",
-    logo1: "/images/fundtalk1.jpg",
-    logo2: "/images/fundtalk2.jpg",
-    skills: ["MERN STACK", "OPEN AI API", "BOOTSTRAP"],
-    website: "https://finalfundtalk.onrender.com",
-    github: "https://github.com/BabatundeJimoh/FundTalk.git",
-    status: "false",
-  },
-  {
-    id: 5,
-    title: "DEV JOBS",
-    description: "A webapp to help users search for jobs",
-    logo: "/images/dev.jpg",
-    skills: ["REACT", "BOOTSTRAP"],
-    website: "https://devjobs-ea.netlify.app/",
-    github: "https://github.com/eakelvin/DevJobs-Project.git",
-    status: "false",
-  },
+  // {
+  //   id: ,
+  //   title: "FUNDTALK",
+  //   description:
+  //     "Financial GPT || A financial chatbot to answer financial questions",
+  //   logo: "/images/fundtalk.jpg",
+  //   logo1: "/images/fundtalk1.jpg",
+  //   logo2: "/images/fundtalk2.jpg",
+  //   skills: ["MERN STACK", "OPEN AI API", "BOOTSTRAP"],
+  //   website: "https://finalfundtalk.onrender.com",
+  //   github: "https://github.com/BabatundeJimoh/FundTalk.git",
+  //   status: "false",
+  // },
+
+  // {
+  //   id: 5,
+  //   title: "DEV JOBS",
+  //   description: "A webapp to help users search for jobs",
+  //   logo: "/images/dev.jpg",
+  //   skills: ["REACT", "BOOTSTRAP"],
+  //   website: "https://devjobs-ea.netlify.app/",
+  //   github: "https://github.com/eakelvin/DevJobs-Project.git",
+  //   status: "false",
+  // },
 
   // {
   //   "id": 6,
@@ -77,27 +88,16 @@ export default [
   //   "status": "false"
   // },
 
-  {
-    id: 7,
-    title: "MAVE SPORTS",
-    description:
-      "A website for sports fans specifically football and basketball",
-    logo: "/images/mave1.jpg",
-    skills: ["WORDPRESS"],
-    website: "https://mavesports.com/",
-    github: "https://mavesports.com/",
-    status: "false",
-  },
-  {
-    id: 8,
-    title: "EA TOUR",
-    description: "Explore and discover the best tourism content in Ghana",
-    logo: "/images/tour.jpg",
-    skills: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
-    website: "https://tour-ea.netlify.app/",
-    github: "https://github.com/eakelvin/EA-Tour.git",
-    status: "false",
-  },
+  // {
+  //   id: 8,
+  //   title: "EA TOUR",
+  //   description: "Explore and discover the best tourism content in Ghana",
+  //   logo: "/images/tour.jpg",
+  //   skills: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
+  //   website: "https://tour-ea.netlify.app/",
+  //   github: "https://github.com/eakelvin/EA-Tour.git",
+  //   status: "false",
+  // },
 
   // {
   //   id: 9,
@@ -144,27 +144,28 @@ export default [
   //   "status": "false"
   // },
 
-  {
-    id: 13,
-    title: "COUNTRY APP",
-    description:
-      "A website that contains details of all countries in the world",
-    logo: "/images/country-app.jpg",
-    skills: ["API", "TAILWIND CSS", "REACT"],
-    website: "https://countries-app-ea.netlify.app/",
-    github: "https://github.com/eakelvin/countries-app.git",
-    status: "false",
-  },
-  {
-    id: 14,
-    title: "MEME GENERATOR",
-    description: "Generate random memes",
-    logo: "/images/meme.jpeg",
-    skills: ["REACT", "CSS", "API"],
-    website: "https://memegenerator-ea.netlify.app/",
-    github: "https://github.com/eakelvin/Meme-Generator.git",
-    status: "false",
-  },
+  // {
+  //   id: 13,
+  //   title: "COUNTRY APP",
+  //   description:
+  //     "A website that contains details of all countries in the world",
+  //   logo: "/images/country-app.jpg",
+  //   skills: ["API", "TAILWIND CSS", "REACT"],
+  //   website: "https://countries-app-ea.netlify.app/",
+  //   github: "https://github.com/eakelvin/countries-app.git",
+  //   status: "false",
+  // },
+
+  // {
+  //   id: 14,
+  //   title: "MEME GENERATOR",
+  //   description: "Generate random memes",
+  //   logo: "/images/meme.jpeg",
+  //   skills: ["REACT", "CSS", "API"],
+  //   website: "https://memegenerator-ea.netlify.app/",
+  //   github: "https://github.com/eakelvin/Meme-Generator.git",
+  //   status: "false",
+  // },
 
   // {
   //   id: 15,
