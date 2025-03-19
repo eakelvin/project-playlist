@@ -25,7 +25,7 @@ const Card = ({
     <div class="flex items-center gap-2 px-4 pb-4 pt-0 mt-2">
       <a href={website}>
         <button
-          class="bg-lime-400 text-black rounded-md py-2 px-4 border border-transparent text-center text-sm transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          class="bg-lime-400 text-black rounded-md py-2 px-4 border border-transparent text-center text-sm transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none"
           type="button"
         >
           Preview
