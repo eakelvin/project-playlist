@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="">
       <Navbar />
 
-      <div className="max-w-screen-xl mx-auto px-4">
+      <div className="max-w-screen-xl mx-auto py-20 px-4">
         <div className="pt-2 text-start md:text-center">
           <p className="text-lime-400 font-bold">Projects</p>
           <p className="text-gray-500">
