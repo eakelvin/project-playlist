@@ -3,7 +3,7 @@ import ProjectSection from "../components/card";
 import data from "../data";
 import Navbar from "../components/navbar";
 
-const Project = () => {
+const Projects = () => {
   return (
     <div className="">
       <Navbar />
@@ -22,4 +22,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;
