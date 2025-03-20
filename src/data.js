@@ -36,9 +36,8 @@ export default [
     description: "News/Blog - Football and Basketball content",
     logo: "/images/mave1.jpg",
     skills: ["WORDPRESS"],
-    website: "https://mavesports.com/",
-    github: "https://mavesports.com/",
-    status: "false",
+    website: "https://mavesportsnetwork.com/",
+    status: "true",
   },
 
   // {

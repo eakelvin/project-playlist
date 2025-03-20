@@ -32,9 +32,11 @@ const Card = ({
         </button>
       </a>
 
-      <a href={github}>
-        <FaGithub size={30} />
-      </a>
+      {github && (
+        <a href={github} target="_blank">
+          <FaGithub size={30} />
+        </a>
+      )}
     </div>
   </div>
 );
