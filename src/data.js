@@ -10,16 +10,6 @@ export default [
     status: "true",
   },
   {
-    id: 2,
-    title: "EDFRICA",
-    description: "Educative Management System",
-    logo: "/images/edfrica.jpg",
-    skills: ["REACT", "MUI", ""],
-    website: "https://www.edfrica.com/",
-    github: "https://github.com/eakelvin",
-    status: "true",
-  },
-  {
     id: 3,
     title: "VILLAGE CREATORS",
     description:
@@ -28,6 +18,16 @@ export default [
     skills: ["NEXT", "BOOTSTRAP", "SANITY"],
     website: "https://www.villagecreators.net/",
     github: "https://github.com/eakelvin/village-creators-main.git",
+    status: "true",
+  },
+  {
+    id: 2,
+    title: "EDFRICA",
+    description: "Educative Management System",
+    logo: "/images/edfrica.jpg",
+    skills: ["REACT", "MUI", ""],
+    website: "https://www.edfrica.com/",
+    github: "https://github.com/eakelvin",
     status: "true",
   },
   {

@@ -16,9 +16,9 @@ const Content = () => {
             <p>Software Engineer</p>
             <p className="text-gray-500 leading-relaxed mt-3">
               I'm a software engineer with interest in frontend development,
-              open source, wordpress and python. Turning complex problems into
-              clean, efficient solutions through code—because great software
-              should feel effortless, like magic.
+              open source, wordpress and javascript. Turning complex problems
+              into clean, efficient solutions through code—because great
+              software should feel effortless, like magic.
             </p>
           </div>
           <div className="py-2 flex items-center gap-2">
