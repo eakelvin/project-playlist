@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { MdVerified } from "react-icons/md";
 
 const Card = ({
   title,
@@ -19,13 +20,16 @@ const Card = ({
       />
     </div>
     <div class="px-4">
-      <h6 class="mb-2 text-xl font-semibold">{title}</h6>
+      <div className="flex items-center gap-2 mb-2">
+        <h6 class="text-xl font-semibold">{title}</h6>
+        <span>{status === "true" && <MdVerified />}</span>
+      </div>
       <p class="leading-normal font-light">{description}</p>
     </div>
     <div class="flex items-center gap-2 px-4 pb-4 pt-0 mt-2">
       <a href={website}>
         <button
-          class="bg-lime-400 text-black rounded-md py-2 px-4 border border-transparent text-center text-sm transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none"
+          class="bg-lime-400 text-black rounded-md py-2 px-4 border border-transparent text-center text-sm transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 hover:text-white active:shadow-none"
           type="button"
         >
           Preview

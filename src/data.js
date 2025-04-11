@@ -27,6 +27,7 @@ export default [
     logo: "/images/edfrica.jpg",
     skills: ["REACT", "MUI", ""],
     website: "https://www.edfrica.com/",
+    // website: "https://app.edfrica.com/",
     github: "https://github.com/eakelvin",
     status: "true",
   },
@@ -65,16 +66,16 @@ export default [
   //   status: "false",
   // },
 
-  // {
-  //   id: 5,
-  //   title: "DEV JOBS",
-  //   description: "A webapp to help users search for jobs",
-  //   logo: "/images/dev.jpg",
-  //   skills: ["REACT", "BOOTSTRAP"],
-  //   website: "https://devjobs-ea.netlify.app/",
-  //   github: "https://github.com/eakelvin/DevJobs-Project.git",
-  //   status: "false",
-  // },
+  {
+    id: 5,
+    title: "DEV JOBS",
+    description: "A webapp to help users search for jobs",
+    logo: "/images/dev.jpg",
+    skills: ["REACT", "BOOTSTRAP"],
+    website: "https://devjobs-ea.netlify.app/",
+    github: "https://github.com/eakelvin/DevJobs-Project.git",
+    status: "false",
+  },
 
   // {
   //   "id": 6,
@@ -87,27 +88,16 @@ export default [
   //   "status": "false"
   // },
 
-  // {
-  //   id: 8,
-  //   title: "EA TOUR",
-  //   description: "Explore and discover the best tourism content in Ghana",
-  //   logo: "/images/tour.jpg",
-  //   skills: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
-  //   website: "https://tour-ea.netlify.app/",
-  //   github: "https://github.com/eakelvin/EA-Tour.git",
-  //   status: "false",
-  // },
-
-  // {
-  //   id: 9,
-  //   title: "API PROJECTS",
-  //   description: "A collection of different web apps that utilize APIs",
-  //   logo: "/images/API.jpg",
-  //   skills: ["HTML", "VANILLA CSS", "JAVASCRIPT", "REST API"],
-  //   website: "https://api-app-ea.netlify.app/",
-  //   github: "https://github.com/eakelvin/Api-projects.git",
-  //   status: "false",
-  // },
+  {
+    id: 8,
+    title: "EA TOUR",
+    description: "Explore and discover the best tourism content in Ghana",
+    logo: "/images/tour.jpg",
+    skills: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
+    website: "https://tour-ea.netlify.app/",
+    github: "https://github.com/eakelvin/EA-Tour.git",
+    status: "false",
+  },
 
   // {
   //   id: 10,
@@ -143,17 +133,17 @@ export default [
   //   "status": "false"
   // },
 
-  // {
-  //   id: 13,
-  //   title: "COUNTRY APP",
-  //   description:
-  //     "A website that contains details of all countries in the world",
-  //   logo: "/images/country-app.jpg",
-  //   skills: ["API", "TAILWIND CSS", "REACT"],
-  //   website: "https://countries-app-ea.netlify.app/",
-  //   github: "https://github.com/eakelvin/countries-app.git",
-  //   status: "false",
-  // },
+  {
+    id: 13,
+    title: "COUNTRY APP",
+    description:
+      "A website that contains details of all countries in the world",
+    logo: "/images/country-app.jpg",
+    skills: ["API", "TAILWIND CSS", "REACT"],
+    website: "https://countries-app-ea.netlify.app/",
+    github: "https://github.com/eakelvin/countries-app.git",
+    status: "false",
+  },
 
   // {
   //   id: 14,
@@ -166,16 +156,27 @@ export default [
   //   status: "false",
   // },
 
-  // {
-  //   id: 15,
-  //   title: "TENZIES GAME",
-  //   description: "Play a game of rolling dice until all the dice are the same",
-  //   logo: "/images/tenzies.jpeg",
-  //   skills: ["REACT", "CSS"],
-  //   website: "https://tenzies-game-ea.netlify.app/",
-  //   github: "https://github.com/eakelvin/tenzies-game.git",
-  //   status: "false",
-  // },
+  {
+    id: 15,
+    title: "TENZIES GAME",
+    description: "Play a game of rolling dice until all the dice are the same",
+    logo: "/images/tenzies.jpeg",
+    skills: ["REACT", "CSS"],
+    website: "https://tenzies-game-ea.netlify.app/",
+    github: "https://github.com/eakelvin/tenzies-game.git",
+    status: "false",
+  },
+
+  {
+    id: 9,
+    title: "API PROJECTS",
+    description: "A collection of different web apps that utilize APIs",
+    logo: "/images/API.jpg",
+    skills: ["HTML", "VANILLA CSS", "JAVASCRIPT", "REST API"],
+    website: "https://api-app-ea.netlify.app/",
+    github: "https://github.com/eakelvin/Api-projects.git",
+    status: "false",
+  },
 
   // {
   //   id: 16,
@@ -210,16 +211,16 @@ export default [
   //   status: "false",
   // },
 
-  // {
-  //   id: 19,
-  //   title: "SPIN THE BOTTLE GAME",
-  //   description: "Spin the bottle to generate a random dare",
-  //   logo: "/images/spin.jpeg",
-  //   skills: ["TAILWIND CSS", "JAVASCRIPT", "REST API"],
-  //   website: "https://spinthebottleklm.netlify.app/",
-  //   github: "https://github.com/blameleo/spin-the-bottle.git",
-  //   status: "false",
-  // },
+  {
+    id: 19,
+    title: "SPIN THE BOTTLE GAME",
+    description: "Spin the bottle to generate a random dare",
+    logo: "/images/spin.jpeg",
+    skills: ["TAILWIND CSS", "JAVASCRIPT", "REST API"],
+    website: "https://spinthebottleklm.netlify.app/",
+    github: "https://github.com/blameleo/spin-the-bottle.git",
+    status: "false",
+  },
 
   // {
   //   "id": 20,
